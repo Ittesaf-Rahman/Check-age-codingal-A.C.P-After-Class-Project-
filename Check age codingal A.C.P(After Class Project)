@@ -1,0 +1,15 @@
+marks = int(input("Enter your exam marks = "))
+if  marks < 32:
+    print("You are failed")
+elif marks < 39:
+    print("You got D")
+elif marks < 49:
+    print("You got C")
+elif marks < 59:
+    print("You got B")
+elif marks < 69:
+    print("You got A-")
+elif marks < 79:
+    print("You got A")
+else:
+    print("You got A+")
